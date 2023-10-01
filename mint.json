@@ -1,11 +1,11 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Docs",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "dark": "/logos/logotype-dark.svg",
+    "light": "/logos/logotype.svg"
   },
-  "favicon": "/favicon.png",
+  "favicon": "/logos/favicon.png",
   "colors": {
     "primary": "#9563FF",
     "light": "#AE87FF",
@@ -21,62 +21,54 @@
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "url": "mailto:support@dub.co"
     }
   ],
   "topbarCtaButton": {
     "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "url": "https://app.dub.co"
   },
-  "tabs": [
-    {
-      "name": "API Reference",
-      "url": "api-reference"
-    }
-  ],
+  "openapi": "https://api.dub.sh",
   "anchors": [
     {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
-    },
-    {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
+      "name": "Help Center",
+      "icon": "question",
+      "url": "https://dub.co/help"
     },
     {
       "name": "Blog",
       "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "url": "https://dub.co/blog"
+    },
+    {
+      "name": "GitHub",
+      "icon": "github",
+      "url": "https://dub.sh/github"
     }
   ],
   "navigation": [
     {
-      "group": "Get Started",
-      "pages": ["introduction", "quickstart", "development"]
-    },
-    {
-      "group": "Essentials",
-      "pages": ["essentials/markdown", "essentials/code", "essentials/images", "essentials/settings", "essentials/navigation"]
-    },
-    {
-      "group": "API Documentation",
-      "pages": ["api-reference/authentication"]
-    },
-    {
-      "group": "Endpoint Examples",
+      "group": "API Reference",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/update",
-        "api-reference/endpoint/delete"
+        "api-reference/introduction",
+        "api-reference/rate-limits",
+        "api-reference/errors"
+      ]
+    },
+    {
+      "group": "Links",
+      "pages": [
+        "api-reference/endpoint/create-a-new-link",
+        "api-reference/endpoint/retrieve-a-link",
+        "api-reference/endpoint/delete-a-link",
+        "api-reference/endpoint/retrieve-a-list-of-links"
       ]
     }
   ],
   "footerSocials": {
-    "twitter": "https://twitter.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "twitter": "https://twitter.com/dubdotco",
+    "github": "https://github.com/steven-tey/dub",
+    "linkedin": "https://www.linkedin.com/company/dubhq",
+    "website": "https://dub.co"
   }
 }
